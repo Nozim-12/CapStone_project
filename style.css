@@ -1,0 +1,73 @@
+/* colors */
+/* summer sky: #286DA8 */
+/* peach: #CD5360 */
+/* field: #B37D4E */
+/* Breeze: #438496 */
+body {
+    font-family: 'Trocchi', serif;
+}
+
+
+#first {
+    background-color: #286DA8;
+    color:white;
+}
+#second {
+    background-color: #286DA8;
+    color: white;
+}
+
+.footer-content {
+    padding: 65px 35px;
+}
+.image-wrapper {
+    width:10px;
+    display: block;
+    margin: 25px;
+}
+.feature-product-title {
+    padding: 25px;
+}
+.feature-product {
+    background-color: #CD5360;
+    color: white;
+    padding: 10px;
+}
+.feature-product-1 {
+    background-color: #B37D4E;
+    color: white;
+}
+.feature-product-2 {
+    background-color: #438496;
+    color: white;
+}
+.feature-product-3 {
+    background-color: #909090;
+    color: white;
+}
+.feature-product-4 {
+    background-color: #778899;
+    color: white;
+}
+.feature-product-5 {
+    background-color: #800000;
+    color: white;
+}
+.feature-product-6 {
+    background-color: #CD5360;
+    color: white;
+}
+.shopping-cart-page {
+    margin-top: 28%;
+}
+.feature-product-buyNow {
+    background-color: #B37D4E;
+    color: white;
+}
+
+.feature-product-image {
+width: 250px;
+height: auto;
+
+
+}
