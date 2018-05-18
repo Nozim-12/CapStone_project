@@ -7,7 +7,10 @@ body {
     font-family: 'Trocchi', serif;
 }
 
+.link-of-email{
+color: yellow;
 
+}
 #first {
     background-color: #286DA8;
     color:white;
@@ -21,10 +24,17 @@ body {
     padding: 65px 35px;
 }
 .image-wrapper {
-    width:10px;
+    width:100%;
     display: block;
-    margin: 25px;
+    margin-top: 25px;
 }
+
+.product-spotlight {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .feature-product-title {
     padding: 25px;
 }
@@ -36,6 +46,7 @@ body {
 .feature-product-1 {
     background-color: #B37D4E;
     color: white;
+    padding: 15px;
 }
 .feature-product-2 {
     background-color: #438496;
@@ -63,11 +74,22 @@ body {
 .feature-product-buyNow {
     background-color: #B37D4E;
     color: white;
+    margin: 10px;
 }
 
 .feature-product-image {
-width: 250px;
+width: 100%;
 height: auto;
 
 
+}
+.view-all-products {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 15px;
+}
+
+.products {
+    margin: 0% 0% 0% 15%;
 }
