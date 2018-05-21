@@ -22,12 +22,15 @@
 </head>
 <body>
 <div>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-faded">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-angle-down"></i>
+            </span>
         </button>
         <a class="navbar-brand" href="index.html">Folly beach clothing company</a>
+
         <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
             <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -39,19 +42,21 @@
                     <a class="nav-link" href="products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shopping-Cart.html"><i class="fa fa-shopping-cart"></i> Shopping-Cart </a>
+                    <a class="nav-link" href="shopping-Cart.html">
+                        <i class="fa fa-shopping-cart"></i> Shopping-Cart </a>
                 </li>
             </ul>
         </div>
     </nav>
+
 </div>
 
 <div class="product container">
     <div class="row feature-product-buyNow">
         <div class="col">
-            <a class="  mx-auto image-wrapper" href="products.html">
-                <img  class="feature-product-image" src="assets/Nike.jpg" alt="T-shirt"> </a>
-        </div> 
+            <a class="clearfix image-wrapper" href="products.html">
+                <img class="clearfix product-spotlight" src="assets/Nike.jpg" alt="T-shirt"> </a>
+        </div>
         <div class="col">
             <h2 class="feature-product-title"> Awesome T-shirt </h2>
             <p>Ornare urna purus. Aenean consectetuer tristique. Magna nullam proin. Maecenas praesent alias. Dignissim dolor
@@ -98,7 +103,7 @@
         
         </div>
 </div>
-</body>
+
 <footer>
     <div class="container shopping-cart-page">
         <div class="row">
@@ -116,4 +121,5 @@
         </div>
     </div>
 </footer>
+</body>
 </html>

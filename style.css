@@ -27,6 +27,12 @@ color: yellow;
     width:100%;
     display: block;
     margin-top: 25px;
+    margin-bottom: 15px;
+}
+.image-wrapper-3 {
+    width:70%;
+    display: block;
+    margin: 25px;
 }
 
 .product-spotlight {
@@ -92,4 +98,8 @@ height: auto;
 
 .products {
     margin: 0% 0% 0% 15%;
+}
+
+.btn-primary {
+    margin-bottom: 10px;
 }
